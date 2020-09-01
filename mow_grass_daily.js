@@ -4,7 +4,7 @@ var mowGrass = function() {
 	        var tile = map.getTile(x, y);
 	        for (var i = 0; i < tile.numElements; i++) {
 	            var element = tile.getElement(i);
-	            element.grassLength = 8;
+	            element.grassLength = 1;
 	        }
 	    }
 	}
@@ -15,7 +15,7 @@ var main = function() {
     });
 };
 registerPlugin({
-    name: 'Mow Grass Every Day',
+    name: 'Fresh Grass Every Day',
     version: '1.0',
     authors: ['OpenRCT2'],
     type: 'remote',
